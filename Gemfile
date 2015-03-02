@@ -35,7 +35,7 @@ end
 group :development do
   gem 'guard'
   gem 'guard-livereload', require: false
-  gem 'guard-rspec', require: false
+
 
   gem 'quiet_assets'
   gem "better_errors"
@@ -47,6 +47,12 @@ end
 
 group :test, :development do
   gem 'rspec-rails', "~> 2.14"
+  gem 'guard-spork'
+  gem 'spork', '~> 1.0rc'
+
+  gem 'guard-rspec', require: false
+
+
 end
 
 group :test do
