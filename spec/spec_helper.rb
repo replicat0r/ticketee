@@ -58,7 +58,7 @@ Spork.prefork do
 
 
 
-    # RSpec Rails can automatically mix in different behaviours to your tests
+    # RSpec Rails can automatically mix in different behaviours to ayour tests
     # based on their file location, for example enabling you to call `get` and
     # `post` in specs under `spec/controllers`.
     #
